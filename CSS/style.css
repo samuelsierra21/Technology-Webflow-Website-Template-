@@ -5,11 +5,14 @@
     list-style: none;
     text-decoration: none;
     user-select: none;
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600&family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
 
 
 }
 body{
     background: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /*HEADER*/
 .header{
@@ -54,7 +57,6 @@ nav{
     width: 160px;
     height: 60px;
     border-radius: 62px;
-    font-family: arial;
     background: #E0E0E0;
     border: 1px;
     
@@ -64,6 +66,61 @@ nav{
 }
 .Cart_Icon{
     width: 50px;
+}
+/*MAIN*/
+.Content_Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Background{
+    width: 90vw;
+    height: 110vh;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+    top: 30%;
+    position: absolute;
+}
+.Text_Two{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    top: 55%;
+    font-size: 20px;
+    position: absolute;
+}
+.Text_Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 60px;
+    border-radius: 62px ;
+    background: #ffffff;
+    border: 1px;
+    top: 66%;
+    position: absolute;
+}
+.Container_Graphics_Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    top: 80%;
+    position: absolute;
 }
 
 /*h1{
