@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /*border: 1px solid red;*/
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
+}
+body{
+    background: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*HEADER*/
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 4vw;
+}
+.Header_Principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size:1.8vw ;
+}
+.Icon_Logo{
+    width: 17vw;
+}
+.Links_Principales{
+    display: flex;
+    gap: 10vh;
+    padding-right: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.Links_Principales a{
+    font-size: 2.3vh;
+    color: #000000;
+}
+.Container_Two{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.Button_Sign button{
+    align-items: center;
+    font-size: 1.9vh;
+    width: 7.5vw;
+    height: 5.8vh;
+    border-radius: 62vh;
+    background: #E0E0E0;
+    border: 1vh;
+    
+}
+.Button_Header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.Cart{
+    background-color: #5956E9;
+    padding: 0.8vw;
+    border-radius: 50%;
+}
+.Content_Banner{
+    background-image:url(/IMG/HEADER-IMG/Image.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin: 0vh 5vw;
+}
+.Container_Banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20vh;
+    gap: 5vh;
+}
+.Texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 8vh;
+    margin-top: -5vh;
+
+}
+.Text_Two{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 2vh;
+    margin-top: -2vh;
+}
+
+.Content_About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 6vw;
+    gap: 6vw;
+    margin-top: 10vh;
+}
+.Img_Social{
+    width: 28vw;
+}
+.Content_Right_Content{
+    margin-top: -30vh;
+    width: 20vw;
+}
+.Content_Right_Content h2{
+    width: 26vw;
+    font-size: 4vh;
+}
+.Content_Right_Content p{
+    font-size: 2vh;
+    width: 31vw;
+    margin-top: 2vh;
+    line-height: 3vh;
+    color: #808080;
+}
+.Img_Icon_One{
+    width: 1.5vw;
+}
+.Sub_Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37vw;
+    margin-top: -30vh;
+    gap:2vw;
+}
+.Icon_One{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+    width: 5vw;
+    height: 9vh;
+    border-radius: 1vw;
+}
+.Sub_Content_Info h3{
+    font-size: 2.4vh;
+}
+.Sub_Content_Info p{
+    font-size: 1.8vh;
+    width: 14vw;
+    margin-top: 1vh;
+}
+.Content_Two{
+    margin-top: 4vh;
+}
+.Btn_Info{
+    position: absolute;
+    margin-top: 8vh;
+    width: 9vw ;
+    height: 7vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 1.2vw;
+    color: black;
+}
