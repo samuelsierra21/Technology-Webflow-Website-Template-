@@ -261,3 +261,349 @@ h1{
 .Img_Features{
     width: 3vw;
 }
+.Content_Businesses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    gap: 10vw;
+    margin-top: 5vh;
+}
+.Img_Features{
+    width: 3vw;
+.Box_Businesses h2{
+    font-size: 2.5vw;
+    color: #5956E9;
+    margin-top: 5vh;
+} 
+.Box_Businesses_Style{
+    font-size: 1vw;
+    margin-top: 1.5vh;
+}  
+/*PLAN*/
+.Parrafo_Plan{
+    font-size: 4vh;
+    margin-top: 20vh;
+}
+.Btn_Plan{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vh;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    margin-top: 5vh;
+}
+.Space_Content{
+    margin-top: 10vh;
+}
+/*Blog*/
+.Blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    gap: 25vw ;
+
+}
+.Content_Principal_Blog{
+    width: 44vw;
+}
+.Content_Principal_Blog h2{
+    font-size: 4vh;
+    color: #2F2F2F;
+}
+.Content_Principal_Blog p{
+    font-size: 2.4vh;
+    line-height: 4vh;
+    margin-top: 3vh;
+
+}
+.Blog_Button button{
+    width: 10vw;
+    height: 6vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vh;
+    background-color: #DCDCDC;
+    color: #0c0c0c;
+}
+.Img_Blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 5vw;
+}
+.Img_Blog img{
+    width: 25vw;
+}
+.Btn_Blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Btn_Blog_One button{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vh;
+    background-color: #ffffff;
+    color: #0c0c0c;
+}
+.Btn_Blog_One{
+    display: flex;
+    margin-top: -10vh;
+    gap: 2vw;
+    margin-left: 2vw;
+}
+.Btn_Blog_Two button{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vh;
+    background-color: #ffffff;
+    color: #0c0c0c;
+}
+.Btn_Blog_Two{
+    display: flex;
+    margin-right: 8vw;
+    margin-top: -10vh;
+}
+.Btn_Blog_Three button{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vh;
+    background-color: #ffffff;
+    color: #0c0c0c;
+}
+.Btn_Blog_Three{
+    display: flex;
+    margin-right: 7vw;
+    margin-top: -10vh;
+    gap: 2vw;
+}
+.Fecha_Blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vh;
+}
+.Content_Fecha{
+    display: flex;
+    justify-content: space-between;
+    gap: 10vw;
+}
+.One_Fecha{
+   margin-left: 5vw;
+}
+.Two_Fecha{
+    margin-left: 1vw;
+}
+.Three_Fecha{
+    position: static;
+    margin-right: 5vw;
+}
+.Fecha{
+    font-size: 2vh;
+}
+.Minutos{
+    font-size: 2vh;
+}
+/*INFO BLOG*/
+.Content_Info_Blog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.Info_Blog{
+    text-align: left;
+}
+.Info_Blog h2{
+    width: 17vw;
+    font-size: 2.5vh;
+
+}
+.Info_Blog p{
+    width: 18vw;
+    line-height: 3vh;
+    margin-top: 1.8vh;
+    font-size: 2vh;
+}
+.Info_Blog h6{
+    font-size: 1.5vh;
+    margin-top: 1.8vh;
+}
+.Info_Center{
+    position: static;
+    margin-right: 1vw;
+}
+.Newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.Content_Newsletter{
+    justify-content: center;
+    align-items: center;
+    background-image: url("/IMG/LOGO/Image\ \(11\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    padding: 12vh;
+}
+.Content_Newsletter h2{
+    font-size: 5vh;
+    color: #FFFFFF;
+}
+.Content_Newsletter p{
+    font-size: 2vh;
+    margin-top: 2vh;
+    color: #FFFFFF;
+}
+.Content_Newsletter input{
+    width: 22vw;
+    height: 6vh;
+    border-radius: 10vw;
+    border: none;
+    margin-top: 4vh;
+    font-size: 1.8vh;
+    text-decoration-color: #5956E9;
+}
+.Content_Newsletter button{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vh;
+    background-color: #0c0c0c;
+    color: #ffffff;
+}
+.Img_Newsletter{
+    margin-left: 62vw;
+    margin-top: -55vh;
+}
+.Img_Newsletter img{
+    width: 30vw;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo_And_Button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;  
+    width: 83vw;
+    margin-left: 8vw;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.Logo_Footer img{
+    width: 17vw;
+}
+.Button_Footer_Style{
+    width: 13vw;
+    height: 7vh;
+    border-radius: 40vw;
+    border: 0.2vh solid rgb(95, 92, 92);
+    font-size: 2vh;
+    background-color: #ffffff;
+    color: #000000;
+}
+.Navegacion_Footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    height: 15vh;  
+    width: 43vw;
+    margin-left: 8vw;
+}
+.Resources_Link h2{
+    font-size: 2vh;
+}
+.Utility_Pages h2{
+    font-size: 2vh;
+}
+.Resources_Link a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 1.8vh;
+    color: #808080;
+}
+.Link_Center{
+    margin-top: 3.2vh;
+}
+.Link_Center a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 1.8vh;
+    color: #808080;
+}
+.Utility_Pages a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 1.8vh;
+    color: #808080;
+}
+.Content_Img_Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Line_Footer{
+    position: absolute;
+    height: 31vh;
+    margin-left: 10vw;
+    margin-top: 14vh ;
+}
+.Price_Img_Footer{
+    margin-left: 61vw;
+    margin-top: -17vh;
+}
+.Img_Price{
+    width: 30vw;
+}
+/*Copyright*/
+.Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    gap: 38vw;
+}
+.Content_Parrafo_CopyRigh p{
+    font-size: 1.9vh;
+    color: #808080;
+}
+.Span_Vict{
+    color: #2F2F2F;
+}
+.Span_Web{
+    color: #2F2F2F;
+}
+.Social_Icon{
+    width: 1vw;
+    margin-left: 1vw
+}
