@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 217vw;
+}
+
+.containIcon {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 3vw;
+    top: 4vw;
+}
+
+.icon {
+    width: 2.5vw;
+    height: 1.5vw;
+}
+
+.title {
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+.contain-navigation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 35vw;
+    top: 0.5vw;
+}
+
+.t {
+    font-size: 1vw;
+    margin-right: 3vw;
+}
+
+.contain-sign {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 87vw;
+    bottom: 2.7vw;
+}
+
+.carticon {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1vw;
+}
+
+.sign {
+    width: 6vw;
+    height: 3vw;
+    border-radius: 1.5vw;
+    background-color: white;
+    border: 0.1vw solid gray;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.banner {
+    width: 90vw;
+    height: 35vw;
+    background: url(/css/Banner.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.proted {
+    color: white;
+    font-size: 3.5vw;
+    margin: 0;
+    position: relative;
+    top: 5vw;
+    left: vw;
+}
+
+.contain-input {
+    border-radius: 1vw;
+    position: relative;
+    bottom: 20vw;
+    left: 24.5vw;
+    background-color: white;
+    width: 50vw;
+    height: 40vw;
+    box-shadow: 0px 0px 10vw 1vw rgba(128, 128, 128, 0.459);
+}
+span
+{
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+}
+input
+{
+    font-size: 1.2vw;
+    margin: 0;
+    padding: 0;
+}
+.name
+{
+    position: relative;
+    top: 2vw;
+    left: 4vw;
+}
+.inputn
+{
+    width: 20vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid gray;
+    position: relative;
+    top: 5vw;
+    right: 4vw;
+}
+.email
+{
+    position: relative;
+    top: 2vw;
+    right: 2.5vw;
+}
+.inputi
+{
+    width: 20vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid gray;
+    position: relative;
+    top: 1.7vw;
+    left: 26vw;
+}
+.company
+{
+    position: relative;
+    top: 6vw;
+    right: 16.5vw;
+}
+.inputc
+{
+    width: 20vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid gray;
+    position: relative;
+    top: 9.5vw;
+    right: 23.5vw;
+}
+.subject
+{
+    position: relative;
+    top: 2.9vw;
+    left: 26.3vw;
+}
+.inputs
+{
+    width: 20vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid gray;
+    position: relative;
+    top: 6.2vw;
+    left: 20.5vw;
+}
+.message
+{
+    position: relative;
+    top: 10vw;
+    right: 22vw;
+}
+.inputm
+{
+    width: 42vw;
+    height: 12vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid gray;
+    position: relative;
+    top: 10vw;
+    left: 4.2vw; 
+}
+.sendmessage
+{
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    position: relative;
+    top: 11vw;
+    left: 4vw;
+    margin: 0;
+    padding: 0;
+}
+.global
+{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    bottom: 11vw;
+}
+.textglobal
+{
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    bottom: 11vw;
+    color: gray;
+}
+.country
+{
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 9vw;
+}
+.contain{
+    width: 20vw;
+    height: 20vw;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    margin-right: 1.5vw;
+    border-radius: 1vw;
+}
+.main
+{
+    font-size: 0.8vw;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 1vw;
+    border: none;
+    height: 2vw;
+    width: 6vw;
+    position: relative;
+    left: 1vw;
+    top: 0.5vw;
+}
+.pais1
+{
+    background-color: rgba(255, 0, 0, 0.329);
+    width: 7vw;
+    height: 7vw;
+    border-radius: 4vw;
+    color: rgb(199, 43, 43);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 6.5vw;
+    top: 2vw;
+    font-size: 2vw;
+}
+.pais2
+{
+    background-color: rgba(78, 140, 255, 0.63);;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 4vw;
+    color: rgb(53, 83, 138);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 6.5vw;
+    top: 4vw;
+    font-size: 2vw;
+}
+.pais3
+{
+    font-size: 2vw;
+    background-color: rgba(59, 230, 125, 0.582);
+    width: 7vw;
+    height: 7vw;
+    border-radius: 4vw;
+    color: rgb(38, 104, 63);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 6.5vw;
+    top: 4vw;
+}
+.titlepais1
+{
+    font-size: 1vw;
+    position: relative;
+    text-align: center;
+    top: 2vw;
+}
+.titlepais
+{
+    font-size: 1vw;
+    position: relative;
+    text-align: center;
+    top: 3.8vw;
+}
+.textpais
+{
+    font-size: 0.9vw;
+    position: relative;
+    top: 1.5vw;
+    text-align: center;
+}
+.textpais1
+{
+    font-size: 0.9vw;
+    position: relative;
+    top: 3.4vw;
+    text-align: center;
+}
+.table
+{
+    width: 50vw;
+    height: 60vw;
+    position: relative;
+    left: 25vw;
+    bottom: 4vw;
+}
+hr {
+    margin: 0;
+    width: 70vw;
+    position: relative;
+    left: 14.5vw;
+    border: 0.1vw solid gainsboro;
+}
+
+.linear-botton {
+    position: relative;
+    top: vw;
+
+}
+
+.containIcon-two {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 15vw;
+    top: 3vw;
+}
+
+.see {
+    width: 15vw;
+    height: 4vw;
+    border-radius: 1.8vw;
+    background-color: white;
+    border: 0.1vw solid gray;
+    font-size: 1vw;
+    position: relative;
+    left: 70vw;
+    bottom: 1.8vw;
+    cursor: pointer;
+}
+
+ol {
+    list-style: none;
+    font-size: 1.5vw;
+}
+
+li {
+    color: gray;
+    margin-bottom: 0.5vw;
+}
+
+.list-re {
+    position: relative;
+    top: 5vw;
+    left: 15vw;
+    padding: 0;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1.5vw;
+    font-size: 1.8vw;
+}
+
+.list {
+    padding: 0;
+    position: relative;
+    bottom: 10vw;
+    left: 27vw;
+}
+
+.list-ut {
+    padding: 0;
+    position: relative;
+    bottom: 26.2vw;
+    left: 41vw;
+    margin: 0;
+    padding: 0;
+}
+
+.interaction {
+    margin: 0;
+    padding: 0;
+    width: 32vw;
+    height: 25vw;
+    background: url(/css/Starup.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    bottom: 48vw;
+    left: 53vw;
+}
+
+.purple {
+    position: relative;
+    width: 6vw;
+    height: 3vw;
+    top: 5vw;
+    left: 6vw;
+    border-radius: 1vw;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.black {
+    width: 9.5vw;
+    height: 4vw;
+    position: relative;
+    top: 15vw;
+    border-radius: 1vw;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    left: 14.5vw;
+    width: 70vw;
+    height: 3vw;
+    bottom: 45vw;
+    background: url(./css/FooterP.jpg);
+    background-size: 100% 100%;
+}
