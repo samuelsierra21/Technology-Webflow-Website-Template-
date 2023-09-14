@@ -64,7 +64,7 @@ body
     {
         width: 90vw;
         height: 35vw;
-        background: url(./css/Banner.jpg);
+        background: url(/IMG/img/Banner.jpg);
         background-size: 100% 100%;
         margin: auto;
         text-align: center;
@@ -249,7 +249,7 @@ body
         left: 6.3vw;
         bottom: 5vw;
         color: rgba(255, 228, 196, 0);
-        background: url(./dates.jpg);
+        background: url(/dates.jpg);
         background-size: 100% 100%;
     }
     .auto
@@ -307,7 +307,7 @@ body
     {
         width: 30vw;
         height: 30vw;
-        background: url(./css/Background\ Image.png);
+        background: url(/IMG/img/Background\ Image.png);
         background-color:rgba(221, 246, 255, 1);
         border-radius: 15vw;
         background-repeat: no-repeat;
@@ -325,7 +325,7 @@ body
         position: relative;
         top: 8vw;
         left: 4vw;
-        background: url(./css/Pintrest.png);
+        background: url(/IMG/img/Pintrest.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 2vw 2vw;  
@@ -335,7 +335,7 @@ body
         position: relative;
         top: 4vw;
         left: 6.5vw;
-        background: url(./css/linke.png);
+        background: url(/IMG/img/linke.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 2vw 2vw;
@@ -345,7 +345,7 @@ body
         position: relative;
         top: 8vw;
         left: 10vw;
-        background: url(./css/Twiter.png);
+        background: url(/IMG/img/Twiter.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 2vw 2vw;
@@ -355,7 +355,7 @@ body
         position: relative;
         top: 16vw;
         right: 10vw;
-        background: url(./css/Fb.png);
+        background: url(/IMG/img/Fb.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 2vw 2vw;
@@ -365,7 +365,7 @@ body
         position: relative;
         top: 20vw;
         right: 7vw;
-        background: url(./css/Insta.png);
+        background: url(/IMG/img/Insta.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 2vw 2vw;
@@ -462,7 +462,7 @@ body
     }
     .table
     {
-        background: url(./Table.jpg);
+        background: url(/IMG/img/Table.jpg);
         width: 70vw;
         height: 80vw;
         background-size: 100% 100%;
@@ -546,7 +546,7 @@ body
         padding: 0;
         width: 32vw;
         height: 25vw;
-        background: url(/css/Starup.jpg);
+        background: url(/IMG/img/Starup.jpg);
         background-size: 100% 100%;
         position:relative;
         bottom: 48vw;
@@ -582,7 +582,7 @@ body
         width: 70vw;
         height: 3vw;
         bottom: 45vw;
-        background: url(./css/FooterP.jpg);
+        background: url(/IMG/img/FooterP.jpg);
         background-size: 100% 100%;
     }
     .sli
